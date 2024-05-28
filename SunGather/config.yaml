@@ -30,7 +30,7 @@ options:
 schema:
   host: str
   timeout: int(3,60)?
-  scan_interval: int(5,600)?
+  scan_interval: int(1,600)?
   connection: "list(sungrow|modbus|http)"
   smart_meter: bool
   custom_mqtt_server: bool
